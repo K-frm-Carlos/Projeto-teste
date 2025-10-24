@@ -1,0 +1,10 @@
+Contrariando as instruções para suprir o toc que estava me impedindo de prosseguir
+com os exercícios, usei alguns comandos não ensinados nas aulas:
+number_format (php)
+step (html)
+Porque aquela montanha de números e inversão de pontuação nos valores estavam bem chatinhos.
+
+Também usei intdiv (php) para fazer a conversão dos segundos, porque a conta não estava dando
+certo e não me lembrava se você havia passado algum operador que fizesse ela (pelo menos eu
+não tinha anotado)
+:D

@@ -1,0 +1,211 @@
+/* 
+    Exercício Algortimo php/css
+    E-mail: carlos.tofoli@fatec.sp.gov.br
+    Versão: 1.0
+    Data: 23/10/2025
+*/
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: darkslategray;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.sign-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input[type='text'],
+input[type='password'],
+select {
+    width: 200px;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc
+}
+
+.logo img {
+    width: 200px;
+}
+
+.intro p {
+    margin: 1.5rem 3rem;
+    padding: 0 5rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.intro .ctsge {
+    margin: 2rem 0;
+}
+
+.btn {
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.primary {
+    background-color: #3396f3;
+    color: white;
+}
+
+.secondary {
+    background-color: white;
+    color: #444;
+}
+
+main{
+    background-color: #9797c3;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+}
+
+.text-success {
+    color: rgb(3, 167, 3);
+}
+
+h1.title {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+section {
+    padding: 3rem 0 4rem 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 1rem;
+    background-color: #9797c3;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    padding: 0 7rem;
+}
+
+.cards a{   
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.card {
+    display: flex;
+    flex: 1 1 calc(27% - 1.5rem);
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1 / 1;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card.yellow {
+    background-color: rgb(213, 213, 0);
+}
+
+.card.purple {
+    background-color: rgb(116, 3, 116);
+}
+
+.card.green {
+    background-color: rgb(39, 159, 39);
+}
+
+.card.salmon {
+    background-color: salmon;
+}
+
+.members {
+    display: flex;
+    justify-content: space-between;
+}
+
+.member img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: #4a4a9b;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+}
+
+footer ul img {
+    display: flex;
+    margin: 10px;
+}
+
+footer p{
+    padding: 2rem;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 900px) {
+    .card {
+        flex: 1 1 calc(50% - 1.5rem);
+    }
+}
+
+@media (max-width: 600px) {
+    .card {
+        flex: 1 1 100%;
+    }
+}
